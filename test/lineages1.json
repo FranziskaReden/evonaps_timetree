@@ -1,0 +1,60 @@
+{
+    "A": {
+        "included" : 1, 
+        "neighbours": [],
+        "leaf": 1,
+        "age": 0,
+        "merged": []
+    }, 
+    "B": {
+        "included" : 1, 
+        "neighbours": [],
+        "leaf": 1,
+        "age": 0
+    },
+    "C": {
+        "included" : 1, 
+        "neighbours": [],
+        "leaf": 1,
+        "age": 0,
+        "merged": []
+    }, 
+    "AB1": {
+        "included" : 0, 
+        "neighbours": [
+            "A", 
+            "B"
+        ], 
+        "leaf": 0,
+        "age": null,
+        "merged": []
+    }, 
+    "AB2": {
+        "included" : 0, 
+        "neighbours": [
+            "AB1"
+        ], 
+        "leaf": 0,
+        "age": null,
+        "merged": []
+    }, 
+    "C1": {
+        "included" : 0, 
+        "neighbours": [
+            "C"
+        ],
+        "leaf": 0,
+        "age": null,
+        "merged": []
+    }, 
+    "ABC": {
+        "included" : 0, 
+        "neighbours": [
+            "C1", 
+            "AB2"
+        ], 
+        "leaf": 0,
+        "age": null,
+        "merged": []
+    }
+}

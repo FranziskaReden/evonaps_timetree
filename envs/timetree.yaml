@@ -1,0 +1,12 @@
+
+name: timetree
+channels:
+  - conda-forge
+dependencies:
+  - biopython==1.83
+  - numpy==2.2.3
+  - pandas==2.2.3
+  - tqdm==4.66.1
+  - pip:
+    - argparse==1.4.0
+    - mysql-connector-python==9.2.0

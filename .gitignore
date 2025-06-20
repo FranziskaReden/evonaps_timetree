@@ -1,0 +1,30 @@
+# Byte-compiled files
+scripts/__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+.venv/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Conda environment
+*.yml
+
+# Snakemake and workflow temp
+.snakemake/
+
+# generated data
+data/*
+
+# config file
+config/EvoNAPS_credentials.cnf
